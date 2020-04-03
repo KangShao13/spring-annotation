@@ -10,6 +10,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 //右面中 Spring—annotation2 工程中的代码增加了
+//这里可以进行对比，修改
 
 /**
  * 切面类
