@@ -30,6 +30,7 @@ public class LogAspects {
 	@Pointcut("execution(public int com.qq.aop.MathCalculator.*(..))")
 	public void pointCut(){};
 	
+	
 	//@Before在目标方法之前切入；切入点表达式（指定在哪个方法切入）
 	@Before("pointCut()")
 	public void logStart(JoinPoint joinPoint){
