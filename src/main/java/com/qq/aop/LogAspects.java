@@ -13,6 +13,10 @@ import org.aspectj.lang.annotation.Pointcut;
 //右面中 Spring—annotation2 工程中的代码增加了
 //这里可以进行对比，修改
 
+//我新建了一个分支，我在分支上这里修改了
+//第二次提交分支
+
+
 /**
  * 切面类
  * @author lfy
@@ -28,6 +32,7 @@ public class LogAspects {
 	//2、其他的切面引用
 	@Pointcut("execution(public int com.qq.aop.MathCalculator.*(..))")
 	public void pointCut(){};
+	
 	
 	//@Before在目标方法之前切入；切入点表达式（指定在哪个方法切入）
 	@Before("pointCut()")
