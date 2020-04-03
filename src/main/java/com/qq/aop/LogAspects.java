@@ -12,6 +12,8 @@ import org.aspectj.lang.annotation.Pointcut;
 //右面中 Spring—annotation2 工程中的代码增加了
 //这里可以进行对比，修改
 
+//我新建了一个分支，我在分支上这里修改了
+
 /**
  * 切面类
  * @author lfy
